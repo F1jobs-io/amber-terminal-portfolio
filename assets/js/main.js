@@ -789,6 +789,26 @@
     if (data.contact) safe("contact", () => loadContact(data.contact));
     if (data.footer) safe("footer", () => loadFooter(data.footer));
 
+    // Hydrate static identity chrome the section loaders don't touch: the
+    // terminal prompt label, the portrait caption/alt, and the author meta tag.
+    safe("identityChrome", () => {
+      const name =
+        (data.hero && data.hero.name) ||
+        (data.site && data.site.meta && data.site.meta.author) ||
+        "";
+      if (!name) return;
+      const first = name.trim().split(/\s+/)[0] || "user";
+      const loc = (data.contact && data.contact.location) || "";
+      const promptEl = document.querySelector(".terminal-label");
+      if (promptEl) promptEl.textContent = `${first.toLowerCase()}@portfolio: ~`;
+      const capEl = document.querySelector(".about-portrait figcaption");
+      if (capEl) capEl.textContent = loc ? `${name} · ${loc}` : name;
+      const portraitImg = document.querySelector(".about-portrait img");
+      if (portraitImg) portraitImg.alt = `Portrait of ${name}`;
+      const metaAuthor = document.querySelector('meta[name="author"]');
+      if (metaAuthor) metaAuthor.setAttribute("content", name);
+    });
+
     // Interactions (independent of any single data file).
     safe("navToggle", initNavToggle);
     safe("scrollSpy", initScrollSpy);
