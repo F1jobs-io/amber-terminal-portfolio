@@ -5,43 +5,46 @@
       "name": "Programming Languages",
       "icon": "fas fa-code",
       "skills": [
-        "TypeScript",
         "Python",
         "SQL",
-        "Go"
+        "Scala"
       ]
     },
     {
       "name": "Frameworks & Libraries",
       "icon": "fas fa-toolbox",
       "skills": [
-        "React",
-        "Node.js",
-        "FastAPI",
-        "Next.js"
+        "PySpark",
+        "Airflow",
+        "dbt",
+        "LangChain",
+        "FastAPI"
       ]
     },
     {
       "name": "Tools & Platforms",
       "icon": "fas fa-wrench",
       "skills": [
+        "Snowflake",
+        "Delta Lake",
+        "Kafka",
         "AWS",
         "Docker",
         "Kubernetes",
-        "PostgreSQL",
-        "Kafka",
-        "GitHub Actions"
+        "MLflow"
       ]
     },
     {
       "name": "Technical Skills",
       "icon": "fas fa-laptop-code",
       "skills": [
-        "Distributed Systems",
-        "CI/CD",
-        "System Design",
         "Data Pipelines",
-        "REST APIs"
+        "Feature Engineering",
+        "RAG",
+        "LLM Integration",
+        "Streaming",
+        "Data Modeling",
+        "MLOps"
       ]
     }
   ]

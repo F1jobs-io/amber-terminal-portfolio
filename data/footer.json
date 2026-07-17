@@ -1,18 +1,18 @@
 {
-  "text": "Designed & Built by Alex Morgan",
-  "copyright": "© 2026 Alex Morgan. All rights reserved.",
+  "text": "Designed & Built by Priya Nair",
+  "copyright": "© 2026 Priya Nair. All rights reserved.",
   "links": [
     {
       "text": "LinkedIn",
-      "url": "https://linkedin.com/in/alexmorgan"
+      "url": "https://linkedin.com/in/priyanair"
     },
     {
       "text": "GitHub",
-      "url": "https://github.com/alexmorgan-dev"
+      "url": "https://github.com/priyanair-dev"
     },
     {
       "text": "Email",
-      "url": "mailto:alex.morgan@example.com"
+      "url": "mailto:priya.nair@example.com"
     }
   ]
 }

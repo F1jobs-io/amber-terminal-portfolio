@@ -2,51 +2,50 @@
   "sectionTitle": "Selected Work",
   "projects": [
     {
-      "title": "CloudDeploy",
-      "description": "Open-source deployment orchestrator that rolls out containerized apps with zero-downtime blue/green strategies.",
-      "category": "Software Development",
-      "technologies": [
-        "Go",
-        "Kubernetes",
-        "Docker"
-      ],
-      "featured": true,
-      "github": "https://github.com/alexmorgan-dev/clouddeploy"
-    },
-    {
-      "title": "InsightBoard",
-      "description": "Real-time analytics dashboard with configurable widgets, streaming charts, and role-based access control.",
-      "category": "Web Development",
-      "technologies": [
-        "React",
-        "TypeScript",
-        "WebSockets"
-      ],
-      "featured": true,
-      "github": "https://github.com/alexmorgan-dev/insightboard"
-    },
-    {
-      "title": "PipeWorks",
-      "description": "Declarative data pipeline framework with schema validation, retries, and observability built in.",
+      "title": "streamlake",
+      "description": "Declarative lakehouse framework with built-in data-quality checks and lineage.",
       "category": "Backend Development",
       "technologies": [
         "Python",
-        "Kafka",
-        "PostgreSQL"
+        "Spark",
+        "Delta Lake"
       ],
       "featured": true,
-      "github": "https://github.com/alexmorgan-dev/pipeworks"
+      "github": "https://github.com/priyanair-dev/streamlake"
     },
     {
-      "title": "DevMetrics CLI",
-      "description": "Command-line tool that aggregates engineering metrics from GitHub and CI systems into weekly reports.",
-      "category": "Software Development",
+      "title": "rag-copilot",
+      "description": "Retrieval-augmented analytics assistant that answers questions over a warehouse.",
+      "category": "Backend Development",
       "technologies": [
-        "TypeScript",
-        "Node.js"
+        "Python",
+        "LangChain",
+        "FastAPI"
       ],
       "featured": true,
-      "github": "https://github.com/alexmorgan-dev/devmetrics-cli"
+      "github": "https://github.com/priyanair-dev/rag-copilot"
+    },
+    {
+      "title": "feature-forge",
+      "description": "Lightweight feature store with point-in-time correctness for ML training.",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Redis"
+      ],
+      "featured": true,
+      "github": "https://github.com/priyanair-dev/feature-forge"
+    },
+    {
+      "title": "kafka-guard",
+      "description": "Schema-validation and observability layer for Kafka topics.",
+      "category": "Software Development",
+      "technologies": [
+        "Scala",
+        "Kafka"
+      ],
+      "featured": true,
+      "github": "https://github.com/priyanair-dev/kafka-guard"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "eyebrow": "SOFTWARE ENGINEER",
+  "eyebrow": "AI & DATA ENGINEER",
   "greeting": "Hello, I'm",
-  "name": "Alex Morgan",
-  "role": "Software Engineer",
-  "tagline": "Software engineer with 5+ years of experience designing scalable web applications, cloud infrastructure, and data-driven products. I focus on clean architecture, developer experience, and shipping features that move business metrics. Comfortable across the stack, from React frontends to distributed backend services and CI/CD automation.",
+  "name": "Priya Nair",
+  "role": "AI & Data Engineer",
+  "tagline": "AI and Data Engineer with 6+ years designing large-scale data platforms and production ML systems. I build reliable pipelines, feature stores, and LLM-powered services that turn raw event data into real-time intelligence. Comfortable from Spark and Airflow orchestration to serving RAG applications behind low-latency APIs.",
   "cta": {
     "buttons": [
       {
@@ -21,23 +21,23 @@
   "socialLinks": [
     {
       "platform": "GitHub",
-      "url": "https://github.com/alexmorgan-dev",
+      "url": "https://github.com/priyanair-dev",
       "icon": "fab fa-github"
     },
     {
       "platform": "LinkedIn",
-      "url": "https://linkedin.com/in/alexmorgan",
+      "url": "https://linkedin.com/in/priyanair",
       "icon": "fab fa-linkedin"
     },
     {
       "platform": "Email",
-      "url": "mailto:alex.morgan@example.com",
+      "url": "mailto:priya.nair@example.com",
       "icon": "fas fa-envelope"
     }
   ],
   "stats": [
     {
-      "value": "6+",
+      "value": "8+",
       "label": "Years Experience"
     },
     {
@@ -49,7 +49,7 @@
       "label": "Companies"
     },
     {
-      "value": "19+",
+      "value": "22+",
       "label": "Technologies"
     }
   ]

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Alex Morgan | Software Engineer",
-    "description": "Software engineer with 5+ years of experience designing scalable web applications, cloud infrastructure, and data-driven products. I focus on clean architecture, developer experience, and shipping ...",
-    "author": "Alex Morgan",
-    "keywords": "Software Engineer, Portfolio, Alex Morgan, TypeScript, Python, SQL, Go, React, Node.js, FastAPI, Next.js"
+    "title": "Priya Nair | AI & Data Engineer",
+    "description": "AI and Data Engineer with 6+ years designing large-scale data platforms and production ML systems. I build reliable pipelines, feature stores, and LLM-powered services that turn raw event data into...",
+    "author": "Priya Nair",
+    "keywords": "AI & Data Engineer, Portfolio, Priya Nair, Python, SQL, Scala, PySpark, Airflow, dbt, LangChain, FastAPI"
   }
 }

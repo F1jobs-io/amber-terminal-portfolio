@@ -1,23 +1,23 @@
 {
   "sectionTitle": "Get in touch",
   "subtitle": "Have a project in mind or a role to fill? Let's connect.",
-  "email": "alex.morgan@example.com",
-  "location": "San Francisco, CA",
+  "email": "priya.nair@example.com",
+  "location": "Seattle, WA",
   "availability": "Open to opportunities",
   "socialLinks": [
     {
       "platform": "GitHub",
-      "url": "https://github.com/alexmorgan-dev",
+      "url": "https://github.com/priyanair-dev",
       "icon": "fab fa-github"
     },
     {
       "platform": "LinkedIn",
-      "url": "https://linkedin.com/in/alexmorgan",
+      "url": "https://linkedin.com/in/priyanair",
       "icon": "fab fa-linkedin"
     },
     {
       "platform": "Email",
-      "url": "mailto:alex.morgan@example.com",
+      "url": "mailto:priya.nair@example.com",
       "icon": "fas fa-envelope"
     }
   ]

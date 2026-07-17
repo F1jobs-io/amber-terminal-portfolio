@@ -2,23 +2,23 @@
   "sectionTitle": "Experience",
   "experiences": [
     {
-      "title": "Senior Software Engineer",
-      "company": "Acme Cloud, San Francisco, CA",
-      "period": "Jan 2023 - Present",
+      "title": "Senior Data Engineer",
+      "company": "Northwind Analytics, Seattle, WA",
+      "period": "Mar 2022 - Present",
       "responsibilities": [
-        "Led the redesign of a multi-tenant API platform serving 2M+ requests per day, cutting p99 latency by 45%",
-        "Built CI/CD pipelines with GitHub Actions and Docker, reducing deployment time from hours to minutes",
-        "Mentored four junior engineers and established the team code review and testing standards"
+        "Architected a lakehouse on Spark and Delta Lake processing 12M+ events per day, cutting pipeline latency 45%",
+        "Built a feature store and retrieval-augmented generation service powering an internal analytics copilot",
+        "Led migration to Airflow-based orchestration with data-quality gates, reducing production incidents by 40%"
       ]
     },
     {
-      "title": "Software Engineer",
-      "company": "Brightline Labs, Remote",
-      "period": "Jun 2020 - Dec 2022",
+      "title": "Data Engineer",
+      "company": "Cascade Data Labs, Portland, OR",
+      "period": "Jul 2019 - Feb 2022",
       "responsibilities": [
-        "Developed customer-facing dashboards in React and TypeScript used by 40k monthly active users",
-        "Designed event-driven data pipelines with Kafka and Python processing 10M+ events daily",
-        "Improved automated test coverage from 40% to 85%, cutting production regressions in half"
+        "Developed streaming ingestion with Kafka and Spark Structured Streaming for real-time dashboards",
+        "Implemented dbt models and warehouse tests that improved reporting accuracy across finance and product teams",
+        "Automated data validation and lineage tracking, cutting manual QA effort by 35%"
       ]
     }
   ]

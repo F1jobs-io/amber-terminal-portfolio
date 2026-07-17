@@ -1,5 +1,5 @@
 /* =========================================================================
-   Alex Morgan — JSON-driven portfolio
+   Priya Nair — JSON-driven portfolio
    Vanilla ES6+. No frameworks.
    ========================================================================= */
 (() => {
